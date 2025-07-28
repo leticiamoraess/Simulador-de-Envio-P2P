@@ -1,2 +1,2 @@
 <h1>SIMULADOR DE ENVIO DE ARQUIVOS UTILIZANDO A ARQUITETURA PEER-TO-PEER<h1>
-<p>Projeto realizado para a matéria Arquitetura de Software no 4º Técnico em informática integrado ao ensino médio no Instituto Federal de Pernambuco Campus Garanhuns!<p>
+Projeto realizado para a matéria Arquitetura de Software no 4º Técnico em informática integrado ao ensino médio no Instituto Federal de Pernambuco Campus Garanhuns!
