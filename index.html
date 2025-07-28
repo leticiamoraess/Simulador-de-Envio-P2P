@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulador P2P</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="titulo">Simulador de Envio de Arquivos P2P</h1>
+  <label>Seu ID:</label>
+  <input type="text" id="my-id" readonly>
+  <button id="copy-id">📋 Copiar ID</button>
+
+  <label>ID do outro usuário:</label>
+  <input type="text" id="remote-id" placeholder="Digite o ID do peer">
+  <button onclick="connect()">Conectar</button>
+
+  <input type="file" id="fileInput">
+  <button onclick="sendFile()">Enviar Arquivo</button>
+
+  <p id="status"></p>
+
+  <script src="https://unpkg.com/peerjs@1.5.2/dist/peerjs.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
